@@ -7,6 +7,7 @@ public class List1 {
     //反转链表
     public ListNode ReverseList(ListNode head) {
 
+        // 提交测试
         if(head == null || head.next == null){
             return head;
         }
